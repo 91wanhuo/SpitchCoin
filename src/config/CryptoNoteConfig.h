@@ -43,7 +43,7 @@ namespace CryptoNote {
 
         const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(2'000'000'00000000);    
 
-        const char GENESIS_COINBASE_TX_HEX[] = "010501ff000180c0b3f7b5811902e108ad6b9715c69b1187d2baa0af0724ba0156787d3b59cf53fd4d382ae1684d210178756622b76c116c9faa4bdf33af663dcf598db110e80829147d124b6b0884aa";
+        const char GENESIS_COINBASE_TX_HEX[] = "011401ff00018080d287e2bc2d02ee5c960e65b4fcee2ff0a5bf4dd8ae0e81f8716a49518572cfd45339806a5f4e2101399c223277288f27d53a3b9d4c3158c60c1b0bc6078c56c57781af658381556b";
         static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
         /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
